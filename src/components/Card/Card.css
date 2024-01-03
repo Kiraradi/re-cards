@@ -1,0 +1,26 @@
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    height: 250px;
+}
+
+.card {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.carb-button {
+    padding: 2px;
+    border: 1px solid rgb(79, 79, 245);
+    background-color: rgb(79, 79, 245);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
